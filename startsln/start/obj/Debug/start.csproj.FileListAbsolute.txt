@@ -1,0 +1,6 @@
+D:\OOP2 files\startsln\start\bin\Debug\start.exe.config
+D:\OOP2 files\startsln\start\bin\Debug\start.exe
+D:\OOP2 files\startsln\start\bin\Debug\start.pdb
+D:\OOP2 files\startsln\start\obj\Debug\start.csprojResolveAssemblyReference.cache
+D:\OOP2 files\startsln\start\obj\Debug\start.exe
+D:\OOP2 files\startsln\start\obj\Debug\start.pdb

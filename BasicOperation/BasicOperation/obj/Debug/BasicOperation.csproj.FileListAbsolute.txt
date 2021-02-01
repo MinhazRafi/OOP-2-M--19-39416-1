@@ -1,0 +1,6 @@
+D:\OOP2 files\BasicOperation\BasicOperation\bin\Debug\BasicOperation.exe.config
+D:\OOP2 files\BasicOperation\BasicOperation\bin\Debug\BasicOperation.exe
+D:\OOP2 files\BasicOperation\BasicOperation\bin\Debug\BasicOperation.pdb
+D:\OOP2 files\BasicOperation\BasicOperation\obj\Debug\BasicOperation.csprojResolveAssemblyReference.cache
+D:\OOP2 files\BasicOperation\BasicOperation\obj\Debug\BasicOperation.exe
+D:\OOP2 files\BasicOperation\BasicOperation\obj\Debug\BasicOperation.pdb
