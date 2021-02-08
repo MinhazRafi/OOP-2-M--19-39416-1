@@ -44,10 +44,10 @@ namespace Lab3_1_
 
        public void ShowInfo()
        {
-           Console.WriteLine("Nmae is :"+name);
-           Console.WriteLine("Id :"+id);
-           Console.WriteLine("Department name :"+department);
-           Console.WriteLine("Cgpa :"+cgpa);
+           Console.WriteLine("Nmae is : "+name);
+           Console.WriteLine("Id : "+id);
+           Console.WriteLine("Department name : "+department);
+           Console.WriteLine("Cgpa : "+cgpa);
 
        }
     }

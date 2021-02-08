@@ -38,9 +38,9 @@ namespace Lab3_1_
 
 public void ShowCourseInfo()
 {
-    Console.WriteLine("Course name is :" + courseName);
-    Console.WriteLine("Course code is :" + courseCode);
-    Console.WriteLine("Course credit is :" + courseCredit);
+    Console.WriteLine("\nCourse name is : " + courseName);
+    Console.WriteLine("Course code is : " + courseCode);
+    Console.WriteLine("Course credit is : " + courseCredit);
 }
 
     }
