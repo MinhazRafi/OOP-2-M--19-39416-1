@@ -39,6 +39,22 @@ namespace Array
                 
                 Console.WriteLine(" " + arr1[i]);
             }
+
+            int[] arr2 = {1,2,2,3,4,4,5,9,9};
+
+            for(int x=0; x<arr2.Length;x++)
+            {
+                for(int y=x+1; y<arr2.Length;y++)
+                {
+                    if(arr2[x]==arr2[y])
+
+                        Console.WriteLine("duplicate numbers are : " +arr2[x]);
+                       
+     
+                 }
+                     
+               
+            }
         }
     }
 }
