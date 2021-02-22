@@ -46,15 +46,32 @@ namespace Array
             {
                 Console.WriteLine(arr2[i]+"");
             }
+
+
+            for (int x = 0; x < arr2.Length; x++)
+            {
+                for (int y = x + 1; y < arr2.Length; y++)
+                {
+                    if (arr2[x] == arr2[y])
+
+                        Console.WriteLine("duplicate numbers are : " + arr2[x]);
+                }
+            }
+
+                    Console.WriteLine("Array values are : ");
+            for (int i = 0; i < arr2.Length;i++ )
+            {
+                Console.WriteLine(arr2[i]+"");
+            }
             
 
-                for (int x = 0; x < arr2.Length; x++)
+                for (int a = 0; a < arr2.Length; a++)
                 {
-                    for (int y = x + 1; y < arr2.Length; y++)
+                    for (int b = a - 1; b < arr2.Length; b++)
                     {
-                        if (arr2[x] == arr2[y])
+                        if (arr2[a] != arr2[b])
 
-                            Console.WriteLine("duplicate numbers are : " + arr2[x]);
+                            Console.WriteLine("unique numbers are : " + arr2[a]);
 
 
                     }
