@@ -6,7 +6,34 @@ using System.Threading.Tasks;
 
 namespace Lab4
 {
-    class SpecialCurrent
+    class SpecialCurrent : Account
     {
+         private int openingBalance;
+        public int OpeningBalance
+        {
+            get { return openingBalance; }
+            set { openingBalance = value; }
+        }
+        public SpecialCurrent(String accName, String acid, int balance, int openingBalance)
+        {
+            this.AccName = accName;
+            this.AccId = acid;
+            this.Balance = balance;
+            this.openingBalance = openingBalance;
+        }
+        public void Withdraw(int amount, int openingBalance)
+        {
+            if (amount > (openingBalance*0.1))
+            {
+                this.Balance -= amount;
+                Console.WriteLine("Balance after withdraw:" + this.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Insufficient balance");
+            }
+
+        }
     }
-}
+ }
+
